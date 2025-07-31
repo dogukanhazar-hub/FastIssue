@@ -1,0 +1,30 @@
+{
+  "name": "issue-creator",
+  "version": "1.0.0",
+  "description": "CLI tool for managing issues across GitHub and Gitee",
+  "main": "src/cli.js",
+  "bin": {
+    "issue-creator": "./bin/issue-creator"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "github",
+    "gitee",
+    "issues",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "better-sqlite3": "^12.2.0",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0",
+    "inquirer": "^8.2.6",
+    "nanospinner": "^1.2.2"
+  }
+}
